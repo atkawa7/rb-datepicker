@@ -1,6 +1,6 @@
 {
   "name": "rb-datepicker",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "React bootstrap date range picker",
   "main": "src/index.js",
   "repository": "https://github.com/atkawa7/react-bootstrap-date-picker",
