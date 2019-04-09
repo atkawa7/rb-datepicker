@@ -1,4 +1,4 @@
-# react-bootstrap-date-picker
+# rb-datepicker
 
 ## Description
 

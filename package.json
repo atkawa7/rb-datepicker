@@ -8,7 +8,7 @@
     "dist",
     "README.md"
   ],
-  "repository": "https://github.com/atkawa7/react-bootstrap-date-picker",
+  "repository": "https://github.com/atkawa7/rb-datepicker",
   "author": "atkawa7",
   "license": "MIT",
   "dependencies": {
