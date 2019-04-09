@@ -81,4 +81,4 @@ typings/
 .fusebox/
 
 # DynamoDB Local files
-.dynamodb/
+.dynamodb/.DS_Store
