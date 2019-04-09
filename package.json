@@ -1,0 +1,53 @@
+{
+  "name": "@atkawa7/react-bootstrap-date-picker",
+  "version": "0.0.1",
+  "description": "React bootstrap date range picker",
+  "main": "src/index.js",
+  "repository": "https://github.com/atkawa7/react-bootstrap-date-picker",
+  "author": "atkawa7",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dayjs": "^1.8.12",
+    "prop-types": "^15.5.0",
+    "react": "^15.x.x || ^16.x.x",
+    "react-dom": "^15.x.x || ^16.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-links": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@storybook/react": "^5.0.6",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-react-tools": "^1.1.7",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1",
+    "mocha": "^6.1.2",
+    "react-test-renderer": "^16.8.6",
+    "webpack": "^4.29.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "mocha --compilers js:@babel/register --require @babel/polyfill"
+  },
+  "peerDependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-daterangepicker": "^3.0.3"
+  }
+}

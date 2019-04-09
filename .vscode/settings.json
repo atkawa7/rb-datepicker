@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "jshint.enable": false,
+    "eslint.enable": true
+}
