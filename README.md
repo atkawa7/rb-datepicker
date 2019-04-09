@@ -7,7 +7,9 @@ A date/time picker for react using bootstrap. This is a a pure react port of
 
 ## Installing
 
-    `yarn add bootstrap bootstrap-daterangepicker react prop-types rb-datepicker dayjs`
+```sh
+yarn add bootstrap bootstrap-daterangepicker react prop-types rb-datepicker dayjs
+```
 
 ## Usage
 

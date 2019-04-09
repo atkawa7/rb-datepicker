@@ -2,7 +2,8 @@
   "name": "rb-datepicker",
   "version": "0.0.4",
   "description": "React bootstrap date range picker",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "repository": "https://github.com/atkawa7/react-bootstrap-date-picker",
   "author": "atkawa7",
   "license": "MIT",
@@ -14,6 +15,7 @@
     "react-dom": "^15.x.x || ^16.x.x"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
@@ -40,6 +42,7 @@
     "webpack": "^4.29.6"
   },
   "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs",
     "test": "mocha --compilers js:@babel/register --require @babel/polyfill"
