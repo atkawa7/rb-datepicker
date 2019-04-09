@@ -42,7 +42,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs",
     "test": "mocha --compilers js:@babel/register --require @babel/polyfill"
   },
   "peerDependencies": {
